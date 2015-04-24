@@ -6,7 +6,8 @@ each blast separated by silence (0.5s). The alarm signal is toggled when the pus
 2. Extend the functionality by allowing a potentiometer to control the duration of the blasts emitted by the speaker.
 3. Modify the system to allow for re-entrant exception handlers that makes use of prioritised interrupts.
 
-In order to provide the base functionality I made use of 4 different interrupt sources:
+In order to provide the base functionality I made use of 4 different interrupt sources:  
+
 • Push Button (EINT0)  
 
 • TIMER0 – 5s counter  
@@ -15,7 +16,8 @@ In order to provide the base functionality I made use of 4 different interrupt s
 
 • TIMER2 – 0.5s counter  
 
-Use of timers:
+Use of timers:  
+
 • TIMER0 was used to count for a period of 5s to determine whether or not the alarm signal should begin  
 
 • TIMER1 was used in order to provide the actual sound out for the speaker  
