@@ -16,6 +16,8 @@ In order to provide the base functionality I made use of 4 different interrupt s
 • TIMER2 – 0.5s counter  
 
 Use of timers:
-• TIMER0 was used to count for a period of 5s to determine whether or not the alarm signal should begin
-• TIMER1 was used in order to provide the actual sound out for the speaker
-• TIMER2 was used to control the loop of the alarm signal
+• TIMER0 was used to count for a period of 5s to determine whether or not the alarm signal should begin  
+
+• TIMER1 was used in order to provide the actual sound out for the speaker  
+
+• TIMER2 was used to control the loop of the alarm signal  
