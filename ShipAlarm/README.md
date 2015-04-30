@@ -1,3 +1,5 @@
+[See PDF report for full description]
+
 The project specification is divided into 3 separate sections:
 
 1. Design and implement a program to simulate a ship’s alarm system on an LPC2468 board making use of a push button that will initiate the alarm 
