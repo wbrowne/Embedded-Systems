@@ -1,3 +1,5 @@
+[See PDF report for full description]
+
 The problem is to design an embedded system to control a simple domestic burglar alarm, 
 making use of the FreeRTOS operating system using the LPC2468 development kit. The burglar 
 alarm system  consists of four sensors and is controlled by a touchscreen LCD display. 
